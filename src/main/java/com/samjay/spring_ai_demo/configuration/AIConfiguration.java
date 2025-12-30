@@ -80,7 +80,7 @@ public class AIConfiguration {
 
     /*
     Implementing chat memory for models to remember previous interactions.
-    This example uses in-memory chat memory, but you can implement persistent storage as needed.
+    This example uses in-memory chat memory by default, but you can implement persistent storage as needed.
      */
 
     @Bean(name = "openAiChatClient")
